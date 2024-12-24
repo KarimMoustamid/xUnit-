@@ -13,20 +13,19 @@
         "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
         "outputPath": "/Users/karimmoustamid/Desktop/xUnit/GameEngine.Tests/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp1.1"
+          "net8.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp1.1": {
-            "targetAlias": "netcoreapp1.1",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
               "/Users/karimmoustamid/Desktop/xUnit/GameEngine/GameEngine.csproj": {
                 "projectPath": "/Users/karimmoustamid/Desktop/xUnit/GameEngine/GameEngine.csproj"
@@ -46,29 +45,43 @@
         }
       },
       "frameworks": {
-        "netcoreapp1.1": {
-          "targetAlias": "netcoreapp1.1",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[15.0.0, )"
+              "version": "[17.8.0, )"
             },
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
+            "coverlet.collector": {
               "target": "Package",
-              "version": "[1.1.2, )",
-              "autoReferenced": true
+              "version": "[6.0.0, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.5.3, )"
             },
             "xunit.runner.visualstudio": {
               "target": "Package",
-              "version": "[2.2.0, )"
+              "version": "[2.5.3, )"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -81,20 +94,19 @@
         "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
         "outputPath": "/Users/karimmoustamid/Desktop/xUnit/GameEngine/obj/",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
           "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netstandard1.6"
+          "net8.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard1.6": {
-            "targetAlias": "netstandard1.6",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -110,17 +122,31 @@
         }
       },
       "frameworks": {
-        "netstandard1.6": {
-          "targetAlias": "netstandard1.6",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
+            "xunit.extensibility.core": {
               "target": "Package",
-              "version": "[1.6.1, )",
-              "autoReferenced": true
+              "version": "[2.5.3, )"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
