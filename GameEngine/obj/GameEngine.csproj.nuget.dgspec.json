@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/karimmoustamid/Desktop/xUnit/GameEngine/GameEngine.csproj": {}
+  },
+  "projects": {
+    "/Users/karimmoustamid/Desktop/xUnit/GameEngine/GameEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/karimmoustamid/Desktop/xUnit/GameEngine/GameEngine.csproj",
+        "projectName": "GameEngine",
+        "projectPath": "/Users/karimmoustamid/Desktop/xUnit/GameEngine/GameEngine.csproj",
+        "packagesPath": "/Users/karimmoustamid/.nuget/packages/",
+        "outputPath": "/Users/karimmoustamid/Desktop/xUnit/GameEngine/obj/",
+        "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "configFilePaths": [
+          "/Users/karimmoustamid/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "targetAlias": "netstandard1.6",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "targetAlias": "netstandard1.6",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.6.1, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

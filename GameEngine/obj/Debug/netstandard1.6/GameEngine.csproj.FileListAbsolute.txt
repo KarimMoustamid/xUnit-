@@ -1,0 +1,10 @@
+/Users/karimmoustamid/Desktop/xUnit/GameEngine/bin/Debug/netstandard1.6/GameEngine.deps.json
+/Users/karimmoustamid/Desktop/xUnit/GameEngine/bin/Debug/netstandard1.6/GameEngine.dll
+/Users/karimmoustamid/Desktop/xUnit/GameEngine/bin/Debug/netstandard1.6/GameEngine.pdb
+/Users/karimmoustamid/Desktop/xUnit/GameEngine/obj/Debug/netstandard1.6/GameEngine.csproj.AssemblyReference.cache
+/Users/karimmoustamid/Desktop/xUnit/GameEngine/obj/Debug/netstandard1.6/GameEngine.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karimmoustamid/Desktop/xUnit/GameEngine/obj/Debug/netstandard1.6/GameEngine.AssemblyInfoInputs.cache
+/Users/karimmoustamid/Desktop/xUnit/GameEngine/obj/Debug/netstandard1.6/GameEngine.AssemblyInfo.cs
+/Users/karimmoustamid/Desktop/xUnit/GameEngine/obj/Debug/netstandard1.6/GameEngine.csproj.CoreCompileInputs.cache
+/Users/karimmoustamid/Desktop/xUnit/GameEngine/obj/Debug/netstandard1.6/GameEngine.dll
+/Users/karimmoustamid/Desktop/xUnit/GameEngine/obj/Debug/netstandard1.6/GameEngine.pdb
